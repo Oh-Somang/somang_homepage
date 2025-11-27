@@ -59,6 +59,12 @@ export default function Header() {
               >
                 Project
               </Link>
+              <Link
+                href="/quotes"
+                className="text-gray-300 hover:text-white mr-4"
+              >
+                Quotes
+              </Link>
               <div className="text-gray-300 hover:text-white mr-4">
                 <UserButton />
               </div>

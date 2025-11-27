@@ -22,11 +22,10 @@ export default function DashboardPage() {
         <p>
           저는 중부대학교 고양창의캠퍼스에서 정보보호학을 전공하고 있는 23학번
           3학년 오소망입니다.
-        </p>
-        <p>나이는 04년생이며, 혈액형은 A형, 별자리는 천칭자리입니다.</p>
-        <p>
-          이 페이지의 이름인 `Info-c`에서, `-c`는 use client 지시자를 사용하고,
-          브라우저에서 useUser() 함수를 이용하는 client side 페이지를
+          <br />
+          나이는 04년생이며, 혈액형은 A형, 별자리는 천칭자리입니다.
+          <br />이 페이지의 이름인 `Info-c`에서, `-c`는 use client 지시자를
+          사용하고, 브라우저에서 useUser() 함수를 이용하는 client side 페이지를
           의미합니다.
         </p>
       </div>
