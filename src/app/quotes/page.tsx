@@ -8,7 +8,8 @@ export default async function QuotesPage() {
   return (
     <div className="max-w-3xl mx-auto p-4">
       <h1 className="text-3xl font-bold mb-8 text-center">
-        "자신이 생각하기에 따라 인생은 달라진다." <br />- 마르쿠스 아우렐리우스
+        ``자신이 생각하기에 따라 인생은 달라진다.`` <br />- 마르쿠스
+        아우렐리우스
       </h1>
 
       <AddQuoteForm />

@@ -4,6 +4,7 @@ import connectMongoDB from '@/libs/mongodb'
 import Quote from '@/models/quote'
 import { revalidatePath } from 'next/cache'
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function convertDocToObj(doc: any) {
   doc._id = doc._id.toString()
   return doc

@@ -16,7 +16,7 @@ export default function QuoteList({ quotes }: { quotes: Quote[] }) {
           className="p-4 border border-slate-300 rounded-lg shadow-sm bg-white"
         >
           <blockquote className="text-xl font-semibold italic mb-2">
-            "{quote.text}"
+            ``{quote.text}``
           </blockquote>
           <div className="text-right text-gray-600">- {quote.author}</div>
           <div className="text-xs text-gray-400 mt-2">
