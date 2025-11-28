@@ -26,16 +26,14 @@ export default async function QuotesPage() {
 
   return (
     <div className="max-w-3xl mx-auto p-4">
-      <div className="mb-10 text-center py-12 px-4 bg-white rounded-xl">
+      <div className="mb-10 text-center py-12 px-4 bg-white shadow-xl shadow-gray-300">
         <h1
-          className={`${handwritingFont.className} text-2xl md:text-3xl mb-6 text-black whitespace-pre-wrap leading-relaxed`}
+          className={`${handwritingFont.className} text-2xl md:text-3xl mb-6 whitespace-pre-wrap leading-relaxed`}
         >
           &quot;{featuredQuote.text}&quot;
         </h1>
 
-        <p className="text-base text-black font-medium">
-          - {featuredQuote.author}
-        </p>
+        <p className="text-base font-medium">- {featuredQuote.author}</p>
       </div>
 
       <AddQuoteForm />
