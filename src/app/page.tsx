@@ -81,7 +81,7 @@ export default function HomePage() {
           Quotes 페이지에서는 행복, 지혜, 희망, 에너지 등을 얻어갈 수 있는 여러
           명언들이 적혀 있습니다.
           <br />
-          직접 명언을 등록할 수 있습니다.
+          직접 명언을 등록, 수정, 삭제할 수 있습니다.
         </p>
       </div>
       <div className="my-8 border-b border-gray-300"></div>

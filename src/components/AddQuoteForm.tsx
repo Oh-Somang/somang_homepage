@@ -31,13 +31,14 @@ export default function AddQuoteForm() {
       className="flex flex-col gap-3 mb-8 p-4 bg-gray-100 rounded-lg"
     >
       <h2 className="text-xl font-bold mb-2">명언을 등록해주세요. :)</h2>
-      <input
-        className="border border-slate-500 p-2 rounded"
-        type="text"
-        placeholder="명언"
+
+      <textarea
+        className="border border-slate-500 p-2 rounded h-24 resize-none whitespace-pre-wrap"
+        placeholder="명언 (엔터로 줄바꿈 가능)"
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
+
       <input
         className="border border-slate-500 p-2 rounded"
         type="text"
