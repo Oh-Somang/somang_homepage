@@ -55,6 +55,34 @@ export default function ProjectPage() {
         >
           crud-action
         </Link>
+        <br />
+        <Link
+          href="https://ably-mall-psi.vercel.app/"
+          className="text-lg text-blue-900 font-bold"
+        >
+          ably-mall
+        </Link>
+        <br />
+        <Link
+          href="https://somang-homepage-old.vercel.app/"
+          className="text-lg text-blue-900 font-bold"
+        >
+          somang_homepage_old
+        </Link>
+        <p>
+          somang_homepage_old는 중간고사 기간에 발표했던 개인 홈페이지
+          프로젝트입니다.
+        </p>
+        <br />
+        <Link
+          href="https://somang-homepage.vercel.app/"
+          className="text-lg text-blue-900 font-bold"
+        >
+          somang_homepage
+        </Link>
+        <p>
+          somang_homepage는 기말고사 기간에 발표한 개인 홈페이지 프로젝트입니다.
+        </p>
       </div>
       <div className="my-8 border-b border-gray-300"></div>
       <h1 className="text-2xl font-bold mb-5"> Team Project</h1>
