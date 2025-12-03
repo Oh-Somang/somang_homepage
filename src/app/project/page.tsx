@@ -61,6 +61,7 @@ export default function ProjectPage() {
           className="text-lg text-blue-900 font-bold"
         >
           ably-mall
+          <br />
         </Link>
         <br />
         <Link
@@ -75,6 +76,14 @@ export default function ProjectPage() {
         </p>
         <br />
         <Link
+          href="https://github.com/Oh-Somang/somang_homepage_old"
+          className="text-lg text-blue-900 font-bold"
+        >
+          GitHub repository for somang_homepage_old
+        </Link>
+        <p>somang_homepage_old의 깃허브 레포지토리입니다.</p>
+        <br />
+        <Link
           href="https://somang-homepage.vercel.app/"
           className="text-lg text-blue-900 font-bold"
         >
@@ -83,6 +92,14 @@ export default function ProjectPage() {
         <p>
           somang_homepage는 기말고사 기간에 발표한 개인 홈페이지 프로젝트입니다.
         </p>
+        <br />
+        <Link
+          href="https://github.com/Oh-Somang/somang_homepage"
+          className="text-lg text-blue-900 font-bold"
+        >
+          GitHub repository for somang_homepage
+        </Link>
+        <p>somang_homepage의 깃허브 레포지토리입니다.</p>
       </div>
       <div className="my-8 border-b border-gray-300"></div>
       <h1 className="text-2xl font-bold mb-5"> Team Project</h1>
