@@ -111,13 +111,21 @@ export default function ProjectPage() {
           score-url
         </Link>
         <p>
-          <br />
           웹서버보안프로그래밍 수업의 팀에서 함께 제작한 팀 프로젝트를 배포한
           주소입니다.
-          <br />
-          아래는 함께한 팀원들의 정보입니다.
         </p>
+        <br />
+        <Link
+          href="https://github.com/KwakNamHo/score-url"
+          className="text-lg text-blue-900 font-bold"
+        >
+          GitHub repository for score-url
+        </Link>
+        <p>score-url의 깃허브 레포지토리입니다.</p>
+        <br />
         <p>
+          아래는 함께한 팀원들의 정보입니다.
+          <br />
           <br />
           곽남호: 정보보호학전공, 92212697: 팀장, 프론트엔드
         </p>
