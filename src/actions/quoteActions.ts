@@ -79,3 +79,4 @@ export async function deleteQuote(id: string) {
     throw new Error(`명언 삭제 실패: ${error}`)
   }
 }
+

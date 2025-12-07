@@ -125,3 +125,4 @@ export default function QuoteList({ quotes }: { quotes: Quote[] }) {
     </div>
   )
 }
+

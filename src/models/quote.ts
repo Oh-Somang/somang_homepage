@@ -13,3 +13,4 @@ const quoteSchema = new Schema(
 const Quote = mongoose.models.Quote || mongoose.model('Quote', quoteSchema)
 
 export default Quote
+
