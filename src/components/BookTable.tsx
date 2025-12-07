@@ -40,11 +40,11 @@ const StyledTable = styled.table`
     width: 50%;
   }
 
-  tbody tr:nth-child(even) {
+  tbody tr:nth-of-type(even) {
     background-color: #f0f7ff;
   }
 
-  tbody tr:nth-child(odd) {
+  tbody tr:nth-of-type(odd) {
     background-color: #ffffff;
   }
 
