@@ -171,7 +171,7 @@ export default function ProjectPage() {
         </Link>
         <br />
         <Link
-          href="https://next-js-portfolio-cyan-theta.vercel.app/"
+          href="https://next-js-portfolio-2-teal.vercel.app/"
           className="text-lg text-blue-900 font-bold"
         >
           Portfolio Website
@@ -198,4 +198,3 @@ export default function ProjectPage() {
     </div>
   )
 }
-
